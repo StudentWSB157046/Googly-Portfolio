@@ -1,0 +1,167 @@
+.Main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+.Menu-Top {
+    display: flex;
+    margin-bottom: -25px; /* Adjust the margin as needed */
+  }
+.Menu-Section {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    width: 100vw;
+  }
+.Logo-Text2 {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    padding: 15px;
+    padding-right: 35px;
+  }
+  .blue {
+    color: #4285f4;
+  }
+  
+  .red {
+    color: #db4437;
+  }
+  
+  .yellow {
+    color: #f4b400;
+  }
+  
+  .green {
+    color: #0f9d58;
+  }
+  .Input-Wrapper2 {
+    position: relative;
+    display: block;
+    width: 30%; /* Adjusted to take full width available */ 
+  }
+  .search-input2 {
+    width: 115%; /* Adjusted to take full width available */
+    padding: 14px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #2d9fd9;
+    padding-left: 45px;
+    display: flex;
+  }
+  .Options2 {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-height: 200px;
+    overflow-y: none;
+    z-index: 1000;
+    width: 115%;
+  }
+  .Panele-top{
+    display: flex;
+    right: 0;
+    position: absolute;
+    justify-content: space-evenly;
+    width: 120px;
+  }
+  .obrazek4{
+    width: 40px;
+    height: 40px;
+  }
+  .Menu-Items {
+    width: 100%;
+    display: flex;
+  }
+  .Menu-Filter{
+    width: 100vw;
+    height: 70px;
+    border-bottom: 2px solid #eee;
+    align-items: center; /* Center items vertically */
+  }
+.Menu-Filter-Icons{
+  margin-left: 210px;
+  margin-right: -60px;
+  text-decoration: none;
+  padding: 10px 2px;
+  align-items: center; /* Center items vertically */
+  display: flex;
+}
+  .FilterIcon{
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+    align-items: center; /* Center items vertically */
+  }
+  .All-Content-Inside{
+    margin-left: 170px;
+    max-width: 650px;
+    margin-bottom: 20px;
+    min-height: 80vh;
+  }
+  .All-Result-Time{
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .All-Result-Container a p{
+    color: #202124;
+    font-size: 14px;
+    padding: 2px 0;
+    margin-bottom: -10px;
+    max-width: 650px;
+
+  }
+  .hrefek{
+    display: block;
+    width:fit-content
+  }
+  .All-Result-Container {
+    position: relative; /* Set position to relative for child absolute positioning */
+  }
+  a {
+    text-decoration: none;
+    color: #1a0dab;
+  }
+.description{
+  margin-top: -10px;
+  font-size: 14px;
+
+}
+.Who-Asked{
+  width: 100%;
+    padding-top: 5px;
+}
+.Who-Asked-Container {
+}
+
+.Question {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.AnswerContainer {
+  position: relative;
+  margin-bottom: 15px; /* Add margin-bottom to create space for the dropdown */
+}
+
+.Question-Paragraph {
+  box-shadow: none !important;
+  border-top: 1px solid #aba7a7 !important;
+  margin: 12px 0;
+  padding-top: 10px;
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+  cursor: pointer;
+  z-index: 1; /* Ensure answers appear above the dropdown */
+}
+.List{
+  display: block;
+  width: 100%;
+}

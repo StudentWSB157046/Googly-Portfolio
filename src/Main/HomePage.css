@@ -1,0 +1,182 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/search.css');
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Product Sans', sans-serif;
+    overflow-x: hidden;
+  
+}
+
+.HomePage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.Mid-Menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto 0;
+}
+
+.Search-Container {
+  max-width: 600px;
+  padding-bottom: 25vh;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Logo-Text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 45px;
+  width: 100%;
+  height: 190px;
+  cursor: default;
+}
+
+.blue {
+  color: #4285F4;
+}
+
+.red {
+  color: #DB4437;
+}
+
+.yellow {
+  color: #F4B400;
+}
+
+.green {
+  color: #0F9D58;
+}
+
+.search-input {
+  width: 550px;
+  padding: 14px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid #2d9fd9;
+  padding-left: 40px;
+}
+
+.Guziki {
+  padding: 2rem;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.Przycisk {
+  margin: 15px; /* Adjust the margin as needed */
+}
+
+.Input-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Input-Wrapper {
+  position: relative;
+}
+
+.gg-search {
+  position: absolute;
+  left: 15px;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.Lower_Nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background: #eee;
+}
+
+.Lower_Nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  justify-content: space-around;
+  font-size: 15px;
+}
+
+.Lower_Nav li {
+  padding: 0 1rem;
+}
+
+.Lower_Nav a {
+  text-decoration: none;
+  color: #666;
+}
+
+.Top-Menu{
+    display: flex;
+    right: 0;
+    position: absolute;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.obrazek1{
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.obrazek2{
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+.obrazek4{
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+.Options {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  width: 100%;
+}
+
+.Options div {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  overflow-x: hidden;
+}
+
+.Options div:hover {
+  background-color: #f0f0f0;
+}
+.List{
+  display: block;
+  width: 100%;
+  padding: 10px;
+}

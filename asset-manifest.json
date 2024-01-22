@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Googly-Portfolio/static/css/main.22f87c7b.css",
-    "main.js": "/Googly-Portfolio/static/js/main.11ab877d.js",
-    "static/js/787.869bf018.chunk.js": "/Googly-Portfolio/static/js/787.869bf018.chunk.js",
+    "main.js": "/Googly-Portfolio/static/js/main.4949704f.js",
+    "static/js/787.7ab81c4b.chunk.js": "/Googly-Portfolio/static/js/787.7ab81c4b.chunk.js",
     "static/media/Avatar.png": "/Googly-Portfolio/static/media/Avatar.3e4201be03150bcc76c9.png",
     "static/media/Email.png": "/Googly-Portfolio/static/media/Email.b1cb2a7f03b10258c45c.png",
     "static/media/Socials.png": "/Googly-Portfolio/static/media/Socials.a039ff9aed5c214908a2.png",
     "static/media/Toolbox.png": "/Googly-Portfolio/static/media/Toolbox.a62e84212f3209be49af.png",
     "index.html": "/Googly-Portfolio/index.html",
     "main.22f87c7b.css.map": "/Googly-Portfolio/static/css/main.22f87c7b.css.map",
-    "main.11ab877d.js.map": "/Googly-Portfolio/static/js/main.11ab877d.js.map",
-    "787.869bf018.chunk.js.map": "/Googly-Portfolio/static/js/787.869bf018.chunk.js.map"
+    "main.4949704f.js.map": "/Googly-Portfolio/static/js/main.4949704f.js.map",
+    "787.7ab81c4b.chunk.js.map": "/Googly-Portfolio/static/js/787.7ab81c4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22f87c7b.css",
-    "static/js/main.11ab877d.js"
+    "static/js/main.4949704f.js"
   ]
 }
